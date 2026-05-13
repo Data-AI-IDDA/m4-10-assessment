@@ -1,0 +1,26 @@
+{
+  "model_type": "Logistic Regression",
+  "version": "1.0.0",
+  "numeric_features": [
+    "bill_length_mm",
+    "bill_depth_mm",
+    "flipper_length_mm",
+    "body_mass_g"
+  ],
+  "categorical_features": [
+    "island",
+    "sex"
+  ],
+  "target_classes": [
+    "Adelie",
+    "Chinstrap",
+    "Gentoo"
+  ],
+  "best_params": {
+    "classifier__C": 1.0,
+    "classifier__max_iter": 500,
+    "classifier__solver": "lbfgs"
+  },
+  "cv_f1_score": 0.9955,
+  "test_f1_score": 0.9827
+}
